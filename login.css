@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #f1f3f4;
+  font-family: sans-serif;
+}
+
+.top-nav-bar{
+  height: 57px;
+  top: 0;
+  position: sticky;
+  background: #fff;
+  margin-bottom: 20px;
+  border-bottom: 3px solid orange;
+  z-index: 2;
+}
+
+.logo{
+  height: 40px;
+  margin: 5px 10px;
+}
+.form-control{
+  margin-top: 9px;
+  margin-left: 30px;
+  border: 1px solid orange ;
+  border-top-left-radius: 20px ;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 0 ;
+  border-bottom-right-radius: 0;
+  box-shadow: none ;
+}
+.input-group-text{
+  background: orange;
+  border: 5px solid orange ;
+  margin: 8.5px 10px 3px 0 ;
+  border-top-left-radius: 0px ;
+  border-bottom-left-radius: 0px ;
+  border-top-right-radius: 20px ;
+  border-bottom-right-radius: 20px ;
+  cursor: pointer;
+}
+
+.menu-bar{
+  width: 40%;
+  height: 57px;
+  float: right;
+}
+.menu-bar ul{
+  display: inline-flex;
+  float: right;
+}
+.menu-bar ul li{
+  border-left: 1px solid #fff;
+  list-style-type: none;
+  padding: 15px 35px;
+  text-align: center;
+  background-color: orange;
+  cursor: pointer;
+}
+.menu-bar ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+.form_container{
+ border: 10px solid orange;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  }
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: #ff6600;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 25%;
+  padding: 10px;
+  outline: none;
+  text-align: center;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #ff6600;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+   font-weight: bold;
+}
+
+a:hover:not(.active) {
+    background-color:black;
+}
+
+.active {
+background-color:none;
+}
+#footer {
+	position:fixed;
+	bottom:0;
+	right:0;
+	left:0;
+	height:15px;
+	clear:both;
+	padding:10px;
+	background-color:#ff6600;
+	color:white;
+	text-align:center;
+	 font-weight: bold;
+}
